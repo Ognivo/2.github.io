@@ -1,14 +1,77 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
 html {
-  background-color: green;
-  font-size: 20px;
+  width: 1600px;
+}
+a {
+  text-decoration: none;
+  color: white;
 }
 
-ul {
-  background: red;
-  padding: 10px;
-  border: 1px solid black;
+.YLisWeb {
+  height: 744px;
+  text-align:center; 
+  color: white;
+  background-image: url(../images/1.1.jpg);
+} 
+nav {
+  height: 231px;
+  display: flex;
+  justify-content:center;
+  align-items: flex-start;
 }
-
-li {
-  margin-left: 20px;
+#about {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  padding: 38px;
+  font-size: 14px;
+  font-weight: 400;
+}
+#opacity {
+  opacity: 80%;
+  padding-inline: 38px;
+  padding-top: 38px;
+  font-size: 14px;
+  font-weight: 400;
+}
+#opacity:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  color: white;
+  opacity: 100%;
+}
+#logo {
+  padding-top: 25px;
+  padding-inline: 62px;
+}
+h1 {
+  height: 95px;
+  font-size: 64px;
+  letter-spacing: 4.5px;
+}
+.Whatever {
+  font-weight: 400;
+  height: 80px;
+  font-size: 18px;
+}
+.button {
+  width: 184px;
+  height: 46px;
+  background-color: #00AFDB;
+  color: white;
+  border:0;
+  font-size: 14px;
+  font-weight: 700;
+}
+.button:hover {
+  background: #009CC2;
+}
+address {
+  height: 203px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 30px;
 }
