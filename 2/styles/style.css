@@ -9,6 +9,18 @@ a {
   text-decoration: none;
   color: white;
 }
+p {
+  font-size: 14px;
+  line-height: 20px;
+}
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+
+
 
 .YLisWeb {
   height: 744px;
@@ -55,6 +67,7 @@ h1 {
   font-weight: 400;
   height: 80px;
   font-size: 18px;
+  line-height: 25px;
 }
 .button {
   width: 184px;
@@ -75,3 +88,22 @@ address {
   align-items: flex-end;
   gap: 30px;
 }
+
+
+
+.REPRESENT {
+  height: 842px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Text2 {
+  width: 407px;
+  height: 233px;
+}
+.Tasks {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: #4E4E4E;
+}
+
