@@ -107,3 +107,50 @@ address {
   color: #4E4E4E;
 }
 
+
+
+.COMMUNITY {
+  height: 504px;
+  background-color: #F5F6F7;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Text3 {
+  width: 298px;
+  height: 175px;
+  text-align: center; 
+}
+h3{
+  color: #373737;
+  font-size: 16px;
+  padding-top: 20px;
+  padding-top: 10px;
+}
+article {
+  margin-left: 800px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.sliderimg {
+  overflow: clip;
+  overflow-clip-margin: content-box;
+  margin-top: 20px;
+  box-sizing: border-box;
+  justify-content: flex-end;
+  display: flex;
+  gap: 30px;
+}
+.container {
+  box-sizing: border-box;
+}
+
+
+.IMPLEMENT {
+  height: 842px;
+  margin-left: 269px;
+  display: flex;
+  gap: 139px;
+  align-items: center;
+}
