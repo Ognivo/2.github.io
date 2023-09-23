@@ -132,7 +132,6 @@ article {
   font-size: 18px;
   font-weight: 500;
 }
-
 .sliderimg {
   overflow: clip;
   overflow-clip-margin: content-box;
@@ -147,10 +146,51 @@ article {
 }
 
 
+
 .IMPLEMENT {
   height: 842px;
+  width: 1600px;
   margin-left: 269px;
   display: flex;
   gap: 139px;
   align-items: center;
 }
+
+
+
+.SING {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  height: 598px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url(../images/back.png);
+} 
+.email {
+  display: flex;
+  justify-content: center;
+  height: 46px;
+  width: 450px;
+}
+input {
+  padding-left: 24px;
+  height: 44px;
+  width: 314px;
+  border: 0;
+  outline:none;
+}
+::-webkit-input-placeholder {
+  color: #373737;
+}
+.button2 {
+  background-image: url(../images/check-icon.svg);
+  width: 66px;
+  height:46px;
+  border: 0;
+}
+.button2:hover {
+  background-image: url(../images/check-icon2.svg);
+}
+
