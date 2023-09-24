@@ -13,6 +13,8 @@ a {
 p {
   font-size: 14px;
   line-height: 20px;
+  color: #4E4E4E;
+  ;
 }
 h2 {
   font-size: 24px;
@@ -64,6 +66,7 @@ h1 {
   letter-spacing: 4.5px;
 }
 .Whatever {
+  color: white;
   font-weight: 400;
   height: 80px;
   font-size: 18px;
@@ -125,7 +128,7 @@ h3{
   color: #373737;
   font-size: 16px;
   padding-top: 20px;
-  padding-top: 10px;
+  padding-bottom: 10px;
 }
 article {
   margin-left: 800px;
@@ -133,13 +136,12 @@ article {
   font-weight: 500;
 }
 .sliderimg {
-  overflow: clip;
-  overflow-clip-margin: content-box;
+  overflow-x: hidden;
   margin-top: 20px;
-  box-sizing: border-box;
   justify-content: flex-end;
   display: flex;
   gap: 30px;
+  margin-right: -500px;
 }
 .container {
   box-sizing: border-box;
@@ -173,6 +175,7 @@ article {
   justify-content: center;
   height: 46px;
   width: 450px;
+  padding-bottom: 30px;
 }
 input {
   padding-left: 24px;
