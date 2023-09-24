@@ -113,6 +113,7 @@ address {
 
 
 .COMMUNITY {
+  overflow: hidden;
   height: 504px;
   background-color: #F5F6F7;
   display: flex;
@@ -136,7 +137,6 @@ article {
   font-weight: 500;
 }
 .sliderimg {
-  overflow-x: hidden;
   margin-top: 20px;
   justify-content: flex-end;
   display: flex;
@@ -151,7 +151,6 @@ article {
 
 .IMPLEMENT {
   height: 842px;
-  width: 1600px;
   margin-left: 269px;
   display: flex;
   gap: 139px;
